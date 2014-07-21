@@ -813,7 +813,8 @@ a#back_top:hover {
     line-height: 170px;
   }
 
-  #fittext2 {
+  #fittext2,
+  #fittext3 {
     line-height: 110px;
   }
 }
@@ -849,7 +850,8 @@ a#back_top:hover {
     line-height: 130px;
   }
 
-  #fittext2 {
+  #fittext2,
+  #fittext3 {
     line-height: 80px;
   }
 }
@@ -860,6 +862,15 @@ a#back_top:hover {
 	.speaker, .share, .map.column_6, .legend.column_6{
 		width: 100%;
 	}
+
+  #fittext1 {
+    line-height: 70px;
+  }
+
+  #fittext2,
+  #fittext3 {
+    line-height: 55px;
+  }
 }
 
 /**/
@@ -896,9 +907,6 @@ a#back_top:hover {
 	.event_name{
 		text-align: center;
 	}
-	h1{
-		margin-bottom: -30px;
-	}
 
 	.social_grusp li{
 		margin: 0 4.1%;
@@ -919,11 +927,12 @@ a#back_top:hover {
 	}
 
   #fittext1 {
-    line-height: 40px;
+    line-height: 60px;
   }
 
-  #fittext2 {
-    line-height: 30px;
+  #fittext2,
+  #fittext3 {
+    line-height: 35px;
   }
 }
 
