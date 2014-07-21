@@ -808,6 +808,14 @@ a#back_top:hover {
 	#site_nav ul li{
 		margin: 0 2%;
 	}
+
+  #fittext1 {
+    line-height: 170px;
+  }
+
+  #fittext2 {
+    line-height: 110px;
+  }
 }
 
 /**/
@@ -836,6 +844,14 @@ a#back_top:hover {
 	.share{
 		width: 70%;
 	}
+
+  #fittext1 {
+    line-height: 110px;
+  }
+
+  #fittext2 {
+    line-height: 60px;
+  }
 }
 
 /**/
@@ -901,6 +917,14 @@ a#back_top:hover {
 	.map iframe{
 		height: 200px;
 	}
+
+  #fittext1 {
+    line-height: 40px;
+  }
+
+  #fittext2 {
+    line-height: 30px;
+  }
 }
 
 /**/
