@@ -1,0 +1,49 @@
+
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+    function initialize_map() {
+        var mapOptions = {
+            zoom: 15,
+            center: new google.maps.LatLng(46.0653275, 13.2284995),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(document.getElementById('map_canvas'),
+                mapOptions);
+
+        var Visionario = new google.maps.Marker({
+            position: new google.maps.LatLng(46.0653275, 13.2284995),
+            map: map,
+            icon: 'img/marker_enlabs.png',
+            title:"Cinema Visionario"
+        });
+    }
+</script>
+
+<a name="location"></a>
+<section class="alpha_32">
+	<div class="container group">
+
+        <h3 class="column_12">Location</h3>
+        <div class="column_6 map">
+            <div id="map_canvas"></div>
+        </div>
+
+        <div class="column_6 legend right">
+            <dl>
+                <dt class="event_location"><span><strong>Event location</strong></span></dt>
+                <dd  class="event_location">
+                    <strong>c/o <a href="http://www.visionario.info/">Cinema Visionario</a></strong>
+                    Via Fabio Asquini, 33<br />
+                    33100 Udine, Italy
+                </dd>
+            </dl>
+        </div>
+
+        <div class="clear"></div>
+
+	</div>
+
+	<div class="clear"></div>
+
+    <div class="separator"></div>
+</section>
